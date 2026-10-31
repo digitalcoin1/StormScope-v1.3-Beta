@@ -1,7 +1,7 @@
 Welcome to StormScope!
 StormScope KLOT — real NOAA Level II radar
 
-Requires Windows 10/11 64-bit, Python 3.11.9 and a stable internet connection.
+Requires Windows 10/11 64-bit, VSCode, Python 3.11.9 and a stable internet connection.
 
 1. Open a terminal in this extracted folder.
 2. Run: python -m pip install -r requirements.txt
