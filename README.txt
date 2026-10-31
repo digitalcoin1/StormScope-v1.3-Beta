@@ -14,3 +14,26 @@ First scan may take a while to download and decode. The app checks for a new sca
 Data: NOAA public AWS NEXRAD Level II archive, bucket unidata-nexrad-level2, KLOT.
 
 Any errors that occured can be asked to me how to fix. Thanks for using my software!
+
+Known errors:
+
+----------------------------------------------------------------------------------------------------------------------------
+cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at 
+https://...
+At line:2 char:1
++ .\.venv\Scripts\Activate.ps1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+
+Info: It is a Windows Terminal security restriction.
+Fixes available:
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\.venv\Scripts\Activate.ps1
+
+Successful result:
+
+(.venv) PS C:\...
+
+----------------------------------------------------------------------------------------------------------------------------
