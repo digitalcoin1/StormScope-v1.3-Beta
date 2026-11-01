@@ -13,6 +13,8 @@ First scan may take a while to download and decode. The app checks for a new sca
 
 Data: NOAA public AWS NEXRAD Level II archive, bucket unidata-nexrad-level2, KLOT.
 
+Other locations will be added gradually.
+
 DM me for errors you've came into at Discord: skywavedx | Thanks for using my software!
 
 Known errors:
