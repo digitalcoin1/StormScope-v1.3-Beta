@@ -1,5 +1,5 @@
 Welcome to StormScope!
-StormScope KLOT — real NOAA Level II radar
+StormScope Version 1.3 BETA — Live NOAA Level II radar scans
 
 Requires Windows 10/11 64-bit (prefer Windows 11 Pro 64-bit), VSCode, Python 3.11.9 and a stable internet connection.
 
