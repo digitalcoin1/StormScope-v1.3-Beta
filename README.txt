@@ -5,7 +5,7 @@ Requires Windows 10/11 64-bit (recommended for Windows 11 Pro 64-bit systems), V
 
 1. Open a terminal in this extracted folder.
 2. Run: python -m pip install -r requirements.txt
-3. Run: python -m uvicorn server:app --host 127.0.0.1 --port 8765
+3. Run: .\.venv\Scripts\python.exe -m uvicorn server:app --host 127.0.0.1 --port 8765
 4. Open http://127.0.0.1:8765 in your browser.
 
 Do NOT double-click index.html: it needs the local Python decoder.
@@ -16,26 +16,3 @@ Data: NOAA public AWS NEXRAD Level II archive, bucket unidata-nexrad-level2, KLO
 Other locations will be added gradually.
 
 DM me for errors you've came into at Discord: skywavedx | Thanks for using my software!
-
-Known errors:
-
-----------------------------------------------------------------------------------------------------------------------------
-cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at 
-https://...
-At line:2 char:1
-+ .\.venv\Scripts\Activate.ps1
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
-    + FullyQualifiedErrorId : UnauthorizedAccess
-
-Info: It is a Windows Terminal security restriction.
-Fixes available:
-
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-.\.venv\Scripts\Activate.ps1
-
-Successful result:
-
-(.venv) PS C:\...
-
-----------------------------------------------------------------------------------------------------------------------------
