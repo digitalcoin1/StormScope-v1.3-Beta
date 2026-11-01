@@ -13,4 +13,6 @@ First scan may take a while to download and decode. The app checks for a new sca
 
 Data source: NOAA public AWS NEXRAD Level II archive, bucket unidata-nexrad-level2, KLOT/KTLX/KINX/KDDC/KGLD/KICT/KAMA/KFDR/KMAF/KUEX/KOAX.
 
+Any problems? Refresh your page or restart the application.
+
 Copyright (C) 2026 SkywaveDX | Thanks for using my software!
