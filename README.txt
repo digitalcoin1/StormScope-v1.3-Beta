@@ -11,6 +11,6 @@ Requires Windows 10/11 64-bit (prefer Windows 11 Pro 64-bit), VSCode, Python 3.1
 Do NOT double-click index.html: it needs the local Python decoder.
 First scan may take a while to download and decode. The app checks for a new scan every 2 minutes. NOAA archive publication can lag the radar station. Reflectivity and velocity are derived from the lowest available sweeps in the same Level II volume. TVS is deliberately NOT claimed without a validated detection algorithm/product. No simulated data, pincushion distortion, or fake storm movement is used.
 
-Data: NOAA public AWS NEXRAD Level II archive, bucket unidata-nexrad-level2, KLOT.
+Data source: NOAA public AWS NEXRAD Level II archive, bucket unidata-nexrad-level2, KLOT/KTLX/KINX/KDDC/KGLD/KICT/KAMA/KFDR/KMAF/KUEX/KOAX.
 
-DM me for errors you've came into at Discord: skywavedx | Thanks for using my software!
+Copyright (C) 2026 SkywaveDX | Thanks for using my software!
